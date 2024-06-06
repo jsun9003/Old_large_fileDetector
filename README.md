@@ -1,8 +1,8 @@
 # Old_large_fileDetector
 
-chmod +x run.py
+chmod +x old_large_files.py
 
-usage: run.py [-h] folder_path output_file
+usage: old_large_files.py [-h] folder_path output_file
 
 Filter files in a folder that are larger than 10GB and older than two years, and output sorted by size
 
@@ -14,4 +14,4 @@ optional arguments:
   -h, --help   show this help message and exit
 
 Example:
-  python run.py /path/to/your/folder output.txt
+  python old_large_files.py /path/to/your/folder output.txt
